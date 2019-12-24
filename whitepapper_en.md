@@ -13,7 +13,6 @@
   - [Social Problems](#social-problems)
   - [Network Issues](#network-issues)
   - [Governance Issues](#governance-issues)
-    - [Governance](#governance)
   - [Software Issues](#software-issues)
 - [KOK Platform Structure](#kok-platform-structure)
   - [Protocol Blockchain (BaaP)](#protocol-blockchain-baap)
@@ -46,6 +45,7 @@
 - [Vision of Blockchain Industry and KOK](#vision-of-blockchain-industry-and-kok)
 - [Legal Notice (Disclaimer)](#legal-notice-disclaimer)
 
+* * *
 
 # EXECUTIVE SUMMARY
 The global market for cultural content is expected to reach around 1,000 trillion won as of 2022. In particular, the portion of digital content is expected to reach 53 percent in 2021, compared to only 33.5 percent in 2012, and has grown rapidly by more than 20 percent annually.
@@ -67,11 +67,11 @@ KOK PLAY is a decentralized digital content platform that was created through th
 
 ## Social Problems
 
-**Centralized System Service**
+**• Centralized System Service**
 
 Existing platforms generate revenue by centralized service system. The Apple App Store and Google Play Store collectively take 30 percent of the profits generated from the downloaded apps. Not only it takes 30 percent of commission fees from paid downloads, but it also takes 30 percent of profits from in-app purchases. A centralized system service pays a high commission to an intermediary. Also, relying on centralized financial institutions to carry out transactions, which inevitably excludes large populations without bank accounts.
 
-**Asymmetric Compensation Model**
+**• Asymmetric Compensation Model**
 
 The use of a centralized service model is tantamount to a repeat of a current asymmetric model. For instance, Facebook, Twitter and Instagram are setting up a multibillion-dollar company with unbalanced profits from stockholders and basic employees, community labor. Product revenues are granted to administrators, and actual content creators only get "performance," "badge" and "honor," thus reducing their collective drive to improve their products.
 
@@ -79,7 +79,7 @@ Bitcoin, the first blockchain, was designed to enable remittance to non-governme
 
 ## Network Issues
 
-**Efficiency**
+**• Efficiency**
 
 Vitalik Buterin: "POW wastes billions of dollars a year, much more than the sum of all fraud and theft cases combined. It's a big tragedy."
 
@@ -87,21 +87,22 @@ Modern blockchain, even the most advanced blockchain projects, are suffering fro
 
 ## Governance Issues
 
-**Centralized Infrastructure**
+**• Centralized Infrastructure**
 
 Vitalik Buterin recently said: “The Bitmain and Alliance Pool currently has 53 percent of all Bitcoin hash power. Isn't it a big problem?" Centralized network resources poses the risk of severe damage to the entire POW network, even with domination, penetration, or shutdown of a small number of targets.
 
 
-### Governance
+**• Governance**
+
 Vitalik Buterin: "Considering how EOS governance has been catastrophic, doesn't this mean that there is a fundamental flaw in all on-chain governance, including decentralized autonomy organization(DAO)? What decentralized self-organization is able to counter bribery attacks or plutocracy?" Governance has much to learn from existing methods, frameworks and attempts. In governance, there are a few things we need to fix from the beginning. Some should be changed later after evaluating the reality. Computer scientists are looking for the perfect solution for blockchain governance that is safe and protected from countless malicious decisions and exploits. Like the U.S. Constitution, a powerful system will be the foundation for future change that needs to take place later. We constructed much of the design with this only question in mind: "What is fair governance in cryptocurrency?"
 
 ## Software Issues
 
-**Utility**
+**• Utility**
 
 Vitalik Buterin: "Why there aren't any large applications that are useful yet?” Most blockchain applies several viable entities such as smart contract and chain codes. Use of newly invented or light programming language can reduce the reliability and expressiveness of the code. Smart contracts are short and simple. The languages and techniques used in blockchain do not allow the development of rich functions and powerful systems. Only a few smart contracts exceed 1,000 codes. However, complex business logic, rich content manipulation, and creating DApp that connects multiple users – made possible on the KOK Platform!
 
-**Security**
+**• Security**
 
 Vitalik Buterin: "Why don't we have a good solution to solve our security challenges yet? When will the problem of account hacking and theft be resolved?" Most blockchain comes with only compilers that create executable code. There are no tools for device testing, continuous integration, and code analysis. As a result, only simplicity protects smart contracts from security breaches. Complex smart contracts have inherent flaws and vulnerabilities, and many reports on security incidents have already been submitted. If better development tools were provided to developers, security incidents that cost significant damage could be avoided. Thus, KOK Platform is considered as meaningful innovation by allowing complex function and creating efficient and productive environment for Dapp. We found answer to the most blockchain problems.
 
@@ -118,8 +119,13 @@ A group of DApp services has a primary node that participates in the KOK Platfor
 
 ## Protocol Blockchain (BaaP)
 The internet of values and trust is called the next generation Internet, and the essence of the Internet is called WWW(World Wide Web). If so, KOK expects that the essence of the next generation Internet will probably be the next phase of WWBW, which is the next phase of the WWW. Such blockchain is currently facing three dilemmas. Ethereum's founder, Vitalik Buterin, called these as the trilemma of blockchain. He also claimed that of the three characteristics of security, scalability and decentralization, all three cannot be achieved at the same time, and at most only two would be resolved. Many blockchains are trying to solve this trilemma. The same applies for KOK Platform.
+
+
 Blockchain is often regarded as technological commodity that possesses public property characteristics, and viewed as newly formed Economic Layer on World Wide Web. Trust and fundamental value essential to the economical contract and transaction are guaranteed by the Economic Layer, the blockchain protocol. Numbers of DApp appear to be created more easily by considering block chain as Economic Layer, and the World Wide Web is moving towards the next level of the Web: the WWBW - World Wide Blockchain Web. KOK Platform is one of this BaaP, which will allow many DApp to be easily created on top of this platform.
+
+
 The technology enabled this process is called AutoXML, which fully implements the data standard defined by the World Wide Web Consortium as an automated engine. AutoXML technology empowers blockchain to become another protocol layer, and allows two-way data transport that immediately shown on the Web via data standard.
+
 
 ## BP Selection Algorithm (DPOSS)
 The node that is delegated to generate the block and determine the main policy is called the Block Generation Node - Block Producer (hereinafter BP), and all of DApp are eligible to become BP. The selected DApp provider is compensated for its role as a block generator. The methods and conditions of becoming BP are as follows:
@@ -160,15 +166,15 @@ Initially, the BP that forms the KOK MainNet begins with 21 number of BPs, and e
 
 ## DApp Development and Implementation Environment (AutoXML)
 
-**Standardization of W3C and Data**
+**• Standardization of W3C and Data**
 
 W3C (Worldwide Web Consortium) standardized for the data exchange over the Web and data representation for data transfers in 1998. The meta language used for this standardization is XML (eXtensible Markup Language). However, XML has very difficult attributes for grammar and tags for editors and people to program. The XML solution that automates and makes it easy to write is AutoXML.
 
-**HTML vs XML**
+**• HTML vs XML**
 
 Web is very important for the blockchain application service, DApp. Because it is possible to show people through the Web and interact with information. There are two ways to express data in the Web: HTML and XML. HTML is unilateral and intended to show people, but XML is bilateral that allow data to be sent and received in addition to what it shows. This property allows to program the Smart Contract for creating DApp
 
-**Smart Contract Composition**
+**• Smart Contract Composition**
 
 Even the basic languages such as Solidity are not programmed, but is maneuvered in drag-and-drop format to compose smart contract.
 
@@ -191,15 +197,15 @@ KOK DApp Development Kit (KDDK) will be prepared for the development of DApp tha
 # KOK Ecosystem
 The KOK ecosystem is designed to be connected and evolved organically by three main elements.
 
-**KOK MainNet**
+**• KOK MainNet**
 
 BPs created based on GOS-BP concept connect to form a network of consensus. KOK Coin is the key cryptocurrency of the KOK MainNet and the KOK ecosystem.
 
-**KOK DApp**
+**• KOK DApp**
 
 Each DApp has one BP that represents it, and that BP manages the sub-ecosystem of that DApp, or DApp ecosystem. DApp is an integrated content ecosystem that provides a variety of digital content. The DApp ecosystem mostly uses KOK Coin provided by the KOK MainNet, but in special cases, it can design its own DApp coin, in which case the exchange mechanism with the KOK Coin will be described later.
 
-**KOK Play Wallet**
+**• KOK Play Wallet**
 
 KOK PLAY Wallet is a device for fair value sharing between BPs of mainnet, and participants of the mainnet and DApp. The KOK PLAY Wallet is also connected to the DApp, making it easy to purchase content through the wallet.
 
@@ -226,16 +232,17 @@ in addition, issues such as compulsory viewing of advertisements by platform use
 
 Unlike the fact that advertisers want to effectively place ads on certain channels where ads can be exposed to desired target audience, advertisers complain about "targeting" and "efficiency of advertising" and pay less due to the existing platform's placement of ads on the viewbot and on the unhealthy contents. As a result, content creators complain about reduced revenue and centralized platform.
 
-**Remove the 'Viewbot' Abusing**
+**• Remove the 'Viewbot' Abusing**
 
 The process of distinguishing 'viewbots' from general users can seem quite complex. In the KOK ecosystem, users can freely consume based on KOK Token. Therefore, the criteria for screening real users of KOK Token are determined by setting specific conditions for consumption of KOK Token, and distinguishing them from the 'viewbots' to simplify the problem of distinguishing them from actual users.
+
 The platform distinguishes "viewbots" from actual users by creating devices such as "staking" of KOK Token within a self-verified KOK Wallet, "token consumption" at a certain level and "user activity" in wallet. In addition to the media, as our platform is operated based on based the consumption environment of user online such as use of KOK Token in games, music services, e-commerce, etc., it is not difficult to distinguish between real users and "viewbots.”
 
-**Improve the Efficiency of Advertisement & Targeted Advertisement**
+**• Improve the Efficiency of Advertisement & Targeted Advertisement**
 
 In blockchain, it is not possible to manipulate ratings and reputations. Transparency in the absence of an “abusing bot” becomes a powerful advantages. Advertisers will be able to distinguish high-quality channels and videos through ratings within KOK content platform, and to advertise efficiently based on data provided by viewers. Advertisers purchase KOK Token in the market, and the purchased KOK Token is consumed again by platforms, users and creators, so the ecosystem of KOK Token is completed in the form of a virtuous cycle.
 
-**Competitiveness between Channels and Videos**
+**• Competitiveness between Channels and Videos**
 
 To limit the competitiveness of inappropriate channels, the channel will be evaluated using KOK Token. Using cryptocurrency to grade the system is very helpful in terms of vitalizing the ecosystem. However, when looking at the case of introducing a rating system using cryptocurrency, similar to this among DApps already in service, users are looking to increase their ratings on each other in order to get a big reward, resulting in problems that are much different from their previous intent.
 
@@ -264,6 +271,8 @@ The KOK media platform's algorithm calculates all interactions in content, store
 **(3) Issues between Users and Platforms**
 
 Media such as YouTube and NETFLIX have begun to emerge, and personal data has also become important assets. Recently, the biggest problem with Facebook and YouTube has become a social issue as privatization of individuals' data, which is not in the form of rewards for users.
+
+
 In particular, Facebook's recent leak of personal information has been a shocking incident around the world, and the encryption of such identity data is considered an essential. On KOK Platform, identity data is encrypted and stored in blockchain, and data required by advertisers such as type of individual viewing and viewing age are collected with consent and compensated with KOK Token.
 
 
@@ -277,7 +286,7 @@ In addition to K-pop, representative dramas of Hallyu is also provided by KOK PL
 
 By holding performances of representative artists for K-pop and performance of overseas artists, the live broadcasting of performance service is provided by KOK PLAY platform, along with ticket sales for performances.
 
-**Influencer System**
+**• Influencer System**
 
 KOK Platform supports the activities of influencers within the 'KOK Media Platform.' Influencers with great influence and potential in the cultural industry and e-commerce market appear on various media content on KOK Platform and attract users' attention. Influencers provides content to users, and users can express their interest in the influencers with KOK Tokens. Advertisers can also request advertisements from the influencers through KOK Platform, and advertising fees are executed through KOK Token. Advertising contracts within these platforms contribute to the increasing value of KOK Token in the market and the active transaction of KOK Token.
 
@@ -289,7 +298,7 @@ Transactions between nodes form a block with tokenized reward tokens, and are tr
 
 
 ### KOK Game Platform
-**Problems of the Existing Game Industry**
+**• Problems of the Existing Game Industry**
 
 In addition to the development costs, game developers suffer from marketing costs, fees caused by Store Platform such as Google Play and the iPhone App Store. The amount of Investment made for research and maintaining proper entertainment is already significant to the small and medium size game companies. Therefore, it is difficult for these companies to cover extra expenses occurred through the platforms. These out-of-game expenditures cause the decrease in the game quality due to reduction in budget for game development.
 
@@ -305,11 +314,11 @@ KOK platform also provides open data to outside developers, so they can create q
 
 ![image](https://raw.githubusercontent.com/KOK-Foundation/Documentation/ca84fbbe1866947a5cfd6952c471bc8e52f3da71/en/images/game_process.png)
 
-**Public API**
+**• Public API**
 
 KOK Platform hosts smart contracts through public APIs. XML-RPC protocol is utilized to materialize smart contracts with token within KOK Wallet. In case of an item exchange in game, the item is registered as a registry smart contract and the item is publicly disclosed to all users. Based on the web and mobile for smart contracts, APIs have been developed for process management.
 
-**Game Platform in KOK Wallet**
+**• Game Platform in KOK Wallet**
 
 KOK Blockchain-based games generally serve within 'KOK Wallet'. The transaction requested between the KOK platform user wallet and the KOK-based games is generated through APIs. When the transaction takes place, KOK Token is moved between wallets. At the time when transaction occurs, related information is presented to users. Users can easily accept or reject the transaction, and it allows blockchain transaction to be more convenient.
 
@@ -332,15 +341,15 @@ However, in the event of a dispute between the seller and the buyer, a third par
 
 ![image](https://raw.githubusercontent.com/KOK-Foundation/Documentation/ca84fbbe1866947a5cfd6952c471bc8e52f3da71/en/images/p2p.png)
 
-**The Conflict Mediator**
+**• The Conflict Mediator**
 
 Anyone within KOK Platform can be a "Conflict Mediator." “Conflict Mediator” plays an active part within the community and gets a chance to be selected. Rating of the mediator can be increased based on the commission received after resolving the dispute. Furthermore, buyer or seller who lost in the conflict can request KOK Platform to reconcile the dispute, so the transaction can be paused. If KOK Platform raises objection to the dispute, one can demand additional ruling by paying extra charge. KOK Platform elects “Jury” through random selection within the community and allows them to resolve cases internally. If there is a legal problem subject to certain country, the transaction is suspended in accordance with the law of the country concerned. If the legal issue is raised based on the ‘international law,’ corresponding transaction is discontinued in accordance with international law.
 
-**Jury**
+**• Jury**
 
 To create equivalent jury selection process, a random hash value, generated by the KOK internal transmission, is converted to select juries from 100 ‘conflict mediators’ who are ranked high in the community. To Prevent manipulation, the whole process of converting hash value is disclosed for the complete transparency and the result random value can be verified. This effort of creating the fair process and results forms trust among stakeholders. Adjustments are resolved according to the majority's opinion, and if the majority does not agree, the jury's screening and dispute settlement process shall be repeated until majority consent is obtained.
 
-**Dispute Mediator and Jury Compensation**
+**• Dispute Mediator and Jury Compensation**
 
 Dispute mediator and jury are compensated with a certain percentage of sales when the dispute is resolved. Compensation will be rewarded with KOK Token and will increase the rating within the “KOK Shopping” platform community. The rating can increase the probability of being selected as a “Conflict Mediator” in the future cases. As a result, the cumulative revenue occurred by the dispute resolution can be significantly raised.
 
@@ -351,7 +360,7 @@ For transactions between individuals and businesses (B2C), goods and services fr
 
 In order to expand the ecosystem of KOK Platform and improve services, the representative nodes within the KOK will select a majority of brands that can provide goods and services to the KOK shopping platform. Validated brands promise quality assurance for goods sold and record transactions (TXs) that are made based on the hash value, leaving them in the other party's wallet to prove the transaction. A purchaser with proof of a transaction may request a warranty for quality based on the transaction, and does not guarantee quality in the case of a third party without a transaction.
 
-**Store & Utilize Consumers’ Big Data**
+**• Store & Utilize Consumers’ Big Data**
 
 Personal information set by consumers according to data delivery, search data by consumers, data related to consumer consumption patterns are integrated and uploaded to user big data servers on KOK Platform. Consumption data of users uploaded to big data servers are accumulated and based on the formation of user big data in the ecosystem, serving as valuable information in analyzing and understanding patterns of online shopping activities.
 
@@ -359,7 +368,7 @@ Consumers within KOK Platform will receive certain rewards as providing informat
 
 ![image](https://raw.githubusercontent.com/KOK-Foundation/Documentation/ca84fbbe1866947a5cfd6952c471bc8e52f3da71/en/images/app_data_blockchain.png)
 
-**Consumer (user) Rewards**
+**• Consumer (user) Rewards**
 
 In online shopping, consumer data is utilized in a variety of ways. Consumers can be compensated for KOK Tokens while providing the data to the KOK shopping mall or brand. In addition, when you receive custom ads, you can receive a KOK Token as a reward.
 
@@ -485,13 +494,13 @@ KOK Foundation is the main body that develops and operates KOK PLAY. (https://ko
 
 ## Executive Team
 
-**CEO Dong-seop Hwang**
+**• CEO Dong-seop Hwang**
 
 CEO Dong-seop Hwang is currently the general CEO of The Groove Company, founder of The Groove Entertainment, co-chairman of Gom Pictures, and director of the Korea Entertainment Producers Association. As a Korean entertainment producer, he produces various contents ranging from albums, dramas, movies and entertainment. He produces albums such as singers Freestyle, MC Han-sae, Big Mama Soul, Wanted Kim Jae-seok, Park Hye-gyeong, Han-byul, and dramas OST MBC's 'Best Love', MBC' Road No. 1," KBS's 'Wangs' Family' JTBC "Padam Padam"and SBS' "Remember," KBS "Good doctor," etc OST's were produced. and have taken part in producing MBN drama "Love Alert," coproduction, movie "Dukgu," “Real Criminal," "The 8th night."
 
 Among the award-winning prizes are the 2016 Korea Creative Content Agency Award for Achievement in the Pop Culture, Arts and Culture Industry Development Division, 2014 Korea Creative Content Awards, 2014 Award for Overseas Proprietary Contribution, 2014 Award for Culture Exchange and Sports Tourism, 2014 Korea Entertainment Producers Association for Achievement in Popular Culture Industry, and 2014 Award for Drama Producers for the 21st Korea Culture and Arts Awards for Arts. For his final education he have received a master's degree in advertising and public relations at Yonsei University's Graduate School of Journalism and Public Information.
 
-**CTO Young Choe**
+**• CTO Young Choe**
 
 CTO Young Choe is an evaluation expert of ICObench, founder and CEO of Crypto Valley Lab, Inc., and a professor at Yonsei University's College of Technology.
 He has been an advisor to a number of global blockchain tasks, including Q DAO, EdenChain, GBC Korea (UCX), EOS Chrome, EDC Blockchain, ACCBY Chain, ID&D (ED coin), and Bolt Protocol. He also serves as an editor of Blockchain Today, a monthly magazine on current affairs in the blockchain sector.
@@ -500,14 +509,14 @@ He has served as general representative of Co-Founder / CTO / Technology of the 
 
 He is also active in spreading ecosystem of open-source software such as Linux. He served as the founding director of the Korea Blockchain Industry Promotion Association (KBIPA). CTO Young Choe also serves as the CSO for 3KFinance, a company specializing in Crypto-Finance and Cybersecurity. In 1980, he graduated from Seoul National University with a degree in atomic nuclear engineering. (https://www.linkedin.com/in/young-choe-8033684/ )
  
-**COO Ji-won Kang**
+**• COO Ji-won Kang**
 
 As a mobile game developer, He is developing various genres of games and has signed a publishing contract with Smilegate and Chu Kong, China, by developing Mobile version of "Battle of the Three Kingdoms" based on Naver's webtoon "Battle of the The Three Kingdoms." Currently, the company has developed the mobile action RPG "Magia: Charma Saga," which received a total investment of $7 million from Nexon Korea, and is currently serving 130 countries around the world.
 
 As a member of the external writing committee of the Korea Creative Content Agency, he participated in the production of white papers on content from 2013 to 2014. He served as a professor at the Graduate School of Hanlim University and has a master's degree in entertainment content at the Graduate School of Inter110national Tourism at Hanyang University.
 (https://www.linkedin.com/in/g1-kang-6b134567/)
 
-**CSO Sung-jun Park**
+**• CSO Sung-jun Park**
 
 CSO Sung-jun Park is in charge of platform design and strategy at the KOK Foundation. He participated in Dungeon & Fighter and Cypher's services, the world's No. 1 game, at Nexon, and was responsible for paying model and game service of Azar service with 200 million users worldwide at HyperConnect.
 
